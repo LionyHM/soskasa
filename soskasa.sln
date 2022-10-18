@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soskasa", "soskasa\soskasa.csproj", "{BE52016E-FC6C-40F6-9DBE-C2F73A8B749C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SosKasa.Web", "soskasa\SosKasa.Web.csproj", "{BE52016E-FC6C-40F6-9DBE-C2F73A8B749C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SosKasa.Presentation", "SosKasa.Presentation\SosKasa.Presentation.csproj", "{68AB130C-FDD4-4A49-8989-160B96011C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SosKasa.Presentation.Definition", "SosKasa.Presentation.Definition\SosKasa.Presentation.Definition.csproj", "{095A477F-49AA-47D8-86E1-82C4EBB73432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{BE52016E-FC6C-40F6-9DBE-C2F73A8B749C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE52016E-FC6C-40F6-9DBE-C2F73A8B749C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE52016E-FC6C-40F6-9DBE-C2F73A8B749C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AB130C-FDD4-4A49-8989-160B96011C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AB130C-FDD4-4A49-8989-160B96011C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AB130C-FDD4-4A49-8989-160B96011C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AB130C-FDD4-4A49-8989-160B96011C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095A477F-49AA-47D8-86E1-82C4EBB73432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095A477F-49AA-47D8-86E1-82C4EBB73432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095A477F-49AA-47D8-86E1-82C4EBB73432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095A477F-49AA-47D8-86E1-82C4EBB73432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

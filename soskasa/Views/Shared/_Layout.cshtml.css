@@ -10,7 +10,9 @@ a.navbar-brand {
 a {
   color: #0077cc;
 }
-
+.navbar {
+    background-color: #deb297;
+}
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
@@ -19,7 +21,7 @@ a {
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1b6ec2;
+  background-color: #deb297;
   border-color: #1861ac;
 }
 
